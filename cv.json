@@ -2,6 +2,7 @@
     "personalInfo": {
         "name": "Dobromir Dimitrov Kralev",
         "telephoneNumber": "+359887176281",
+        "email": "dkralev90@gmail.com",
         "nationality": "Bulgarian",
         "dateOfBirth": "14/11/1990"
     },
@@ -75,6 +76,13 @@
             "start": "14/5/2016",
             "end": "28/10/2017"
         }
+    }, {
+        "company": "TitanGate",
+        "position": "Front-end developer",
+        "timeSpan": {
+            "start": "28/5/2018",
+            "end": "20/7/2018"
+        }
     }],
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
@@ -87,8 +95,7 @@
     "interests": ["guitar", "basketball", "snowboarding", "djing"],
     "socialinfo": {
         "github": "https://github.com/dobakay/",
-        "twitter": "https://twitter.com/backspin33rpm",
-        "email": "dkralev90@gmail.com"
+        "twitter": "https://twitter.com/backspin33rpm"
     },
     "shortDescription": "A Longobarding, Snowboarding Disk Jokey that does Front-end development! Word!"
 }
