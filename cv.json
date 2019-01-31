@@ -83,11 +83,18 @@
             "start": "28/5/2018",
             "end": "20/7/2018"
         }
+    }, {
+        "company": "iBoris",
+        "position": "Fullstack developer",
+        "timeSpan": {
+            "start": "14/8/2018",
+            "end": ""
+        }
     }],
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
         "languages": ["JavaScript", "HTML", "CSS", "HTML5", "CSS3", "SASS", "C#", "C++", "Python", "SQL", "Java"],
-        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha", "AngularJS", "FireBase", "Gulp"],
+        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha", "AngularJS", "FireBase", "Gulp", "Telerik's Kendo Controls"],
         "favouriteTextEditor": "Sublime Text",
         "otherLanguages": ["English", "German"]
     },
