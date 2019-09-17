@@ -94,7 +94,7 @@
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
         "languages": ["JavaScript", "HTML", "CSS", "HTML5", "CSS3", "SASS", "C#", "C++", "Python", "SQL", "Java"],
-        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha", "AngularJS", "FireBase", "Gulp", "Telerik's Kendo Controls"],
+        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha", "AngularJS", "Angular", "FireBase", "Gulp", "Kendo Controls"],
         "favouriteTextEditor": "Sublime Text",
         "otherLanguages": ["English", "German"]
     },
