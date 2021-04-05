@@ -33,11 +33,11 @@ const CV = () => {
             </header>
             <main>
               <div className="downloadButtonContainer">
-                <a className="button button--outline button--primary button--lg" href="../../static/Dobromir_Kralev_CV.pdf" download="Dobromi_Kralev_CV">Download in PDF</a>
+            <a className="button button--outline button--primary button--lg" href="https://dobakay.github.io/Dobromir_Kralev_CV.pdf" target="_blank" download="Dobromi_Kralev_CV.pdf">Download in PDF</a>
               </div>
               <WorkingHistory />
               <div className="downloadButtonContainer">
-                <a className="button button--outline button--primary button--lg" href="../../static/Dobromir_Kralev_CV.pdf" download="Dobromi_Kralev_CV">Download in PDF</a>
+            <a className="button button--outline button--primary button--lg" href="https://dobakay.github.io/Dobromir_Kralev_CV.pdf" target="_blank" download="Dobromi_Kralev_CV.pdf">Download in PDF</a>
               </div>
             </main>
         </Layout>
