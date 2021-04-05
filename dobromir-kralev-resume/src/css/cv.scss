@@ -1,0 +1,101 @@
+@import './theme.scss';
+
+header {
+    .headerContainer {
+        margin: 0 auto;
+        align-content: center;
+    }
+}
+
+main {
+    .downloadButtonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 20px;
+
+        a.button {
+            flex-basis: 300px;
+        }
+    }
+
+    .positionTitleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+}
+
+.cardContainer {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 400px;
+    padding: 10px;
+
+    // background-color: #EEE;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        flex:auto;
+        padding: 50px;
+        width: 80%;
+        background-color: $background-turqoise-primary;
+        border-radius: 0;
+        color: $color-clear-primary;
+        transition: all 0.1s ease-in-out;
+        min-height: 250px;
+
+        .occupation {
+
+        }
+
+        ul {
+
+        }
+
+        .technologies {
+
+        }
+    }
+
+    .card:nth-child(odd) {
+        background-color: $background-clear;
+        color: $color-turqoise-primary;
+    }
+
+    .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    }
+
+
+    /* Ripple effect */
+    .ripple {
+    background-position: center;
+    transition: background 0.8s;
+    }
+    .ripple:hover {
+    background: $background-turqoise-primary radial-gradient(circle, transparent 1%, $background-turqoise-primary 1%) center/15000%;
+    }
+
+    .ripple:hover:nth-child(odd) {
+        background: $background-clear radial-gradient(circle, transparent 1%, $background-clear 1%) center/15000%;
+    }
+
+    .ripple:active {
+    background-color: $color-teal-primary;
+    background-size: 100%;
+    transition: background 0s;
+    }
+
+    .ripple:active:nth-child(odd) {
+        background-color: $color-grey-primary;
+        background-size: 100%;
+        transition: background 0s;
+    }
+}
